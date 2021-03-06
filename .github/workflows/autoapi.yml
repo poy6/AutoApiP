@@ -11,7 +11,10 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '12 */1 * * *'
+    #backup - cron: '12 */1 * * *'
+    - cron: '17 */7 * * 1-6'
+  watch:
+    types: [started]
    
 jobs:
   build:
