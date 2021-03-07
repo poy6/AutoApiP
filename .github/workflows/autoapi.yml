@@ -12,7 +12,7 @@ on:
   #    - master
   schedule:
     #backup - cron: '12 */1 * * *'
-    - cron: '17 8-23/7 * * 1-5'
+    - cron: '17 8-21/5 * * 1-5'
   watch:
     types: [started]
    
